@@ -12,6 +12,24 @@ dotenv.config({});
 
 const app = express();
 
+
+
+
+// api/index.js (or api/app.js)
+
+
+// Middleware
+app.use(express.json());
+
+// Example route
+app.get("/", (req, res) => {
+  res.send("Hello from Express on Vercel!");
+});
+
+// Export the app (do not app.listen)
+module.exports = app;
+
+
 // middleware
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
