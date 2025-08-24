@@ -71,13 +71,7 @@ const JobDescription = () => {
     fetchSingleJob();
   }, [jobId, dispatch, user?._id]);
 
-  if (loading) {
-    return (
-      <div className="flex justify-center items-center h-screen">
-        <p className="text-lg font-semibold">Loading job details...</p>
-      </div>
-    );
-  }
+  
 
   return (
     <div className="w-screen">
