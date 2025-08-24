@@ -3,7 +3,7 @@ import { Job } from "../models/job.model.js";
 // admin post krega job
 export const postJob = async (req, res) => {
     try {
-        const { title, description, requirements, salary, location, jobType, experience, position, companyId } = req.body;
+        const { title, description, Information, about, applylink, requirements , salary, location, jobType, experience, position, companyId } = req.body;
         const userId = req.id;
 
         if (!title || !description || !requirements || !salary || !location || !jobType || !experience || !position || !companyId) {
@@ -15,8 +15,11 @@ export const postJob = async (req, res) => {
         const job = await Job.create({
             title,
             description,
-            requirements: requirements.split(","),
-            salary: Number(salary),
+            Information,
+            about,
+            applylink,
+            requirements,
+            salary: salary,
             location,
             jobType,
             experienceLevel: experience,
