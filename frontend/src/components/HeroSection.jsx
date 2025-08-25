@@ -18,12 +18,12 @@ const HeroSection = () => {
     return (
         <div className='text-center px-4 sm:px-8 lg:px-16'>
             <div className='flex flex-col gap-5 my-10'>
-                <span className='mx-auto px-4 py-2 rounded-full bg-gray-100 text-[#F83002] font-medium text-sm sm:text-base'>No. 1 Job Hunt Website</span>
+                <span className='mx-auto px-4 py-2 rounded-full bg-gray-100 text-[#F83002] font-medium text-sm sm:text-base'>No.1 Tech Job Update and Resourses Website</span>
                 <h1 className='text-3xl sm:text-4xl lg:text-5xl font-bold leading-snug'>
                     Search, Apply & <br /> Get Your <span className='text-[#6A38C2]'>Dream Jobs</span>
                 </h1>
                 <p className='text-sm sm:text-base text-gray-600 max-w-2xl mx-auto'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid aspernatur temporibus nihil tempora dolor!
+                  we provides the latest tech job updates, coding roadmaps, resume tips, and career growth insights. We ensure you get verified opportunities and valuable resources to build a successful career!
                 </p>
 
                 <div className='flex flex-col sm:flex-row w-full sm:w-3/4 lg:w-2/5 mx-auto shadow-lg border border-gray-200 rounded-full overflow-hidden'>
