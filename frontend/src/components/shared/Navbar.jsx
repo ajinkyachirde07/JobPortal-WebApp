@@ -125,7 +125,7 @@ const Navbar = () => {
                                 </>
                             ) : (
                                 <>
-                                    <li><Link to="/" onClick={() => setIsMenuOpen(false)}>Home</Link></li>
+                                    <li><Link to="/" onClick={() => setIsMenuOpen(false)}>Home </Link></li>
                                     <li><Link to="/jobs" onClick={() => setIsMenuOpen(false)}>Jobs</Link></li>
                                     <li><Link to="/browse" onClick={() => setIsMenuOpen(false)}>Browse</Link></li>
                                 </>

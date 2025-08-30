@@ -144,7 +144,7 @@ const JobDescription = () => {
 
             <div className="mt-6">
               <strong>
-                Join our WhatsApp Channel:{" "}
+                Join our WhatsApp Channel{" "}
                 <a
                   href="https://www.whatsapp.com/channel/0029Vb5pzqx9Gv7NQVii641u"
                   target="_blank"

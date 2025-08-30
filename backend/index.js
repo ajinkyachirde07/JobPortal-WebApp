@@ -15,22 +15,18 @@ const app = express();
 
 const _dirname = path.resolve();
 
-
-
-
 // api/index.js (or api/app.js)
-
-
-
-
 
 // middleware
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:"https://jobportal-webapp-tn9r.onrender.com/",
-    credentials:true
+
+    // origin:"http://localhost:5173",
+    origin:"https://jobportal-webapp-tn9r.onrender.com",
+    credentials:true 
+
 }
 
 app.use(cors(corsOptions));
